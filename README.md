@@ -124,19 +124,10 @@ object Vivek {
 
 ### `>` commit pulse
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=vivekbhadauriyadev&hide_border=true&background=0a0a0a&ring=3DDC97&fire=FFC53D&currStreakNum=EDEDED&sideNums=EDEDED&currStreakLabel=3DDC97&sideLabels=8B8B92&dates=55555C&stroke=1c1c1f&date_format=j%20M%5B%20Y%5D">
-    <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=vivekbhadauriyadev&hide_border=true&background=FAFAFA&ring=00925A&fire=B87400&currStreakNum=0A0A0A&sideNums=0A0A0A&currStreakLabel=00925A&sideLabels=62626A&dates=A1A1A8&stroke=ECECEF&date_format=j%20M%5B%20Y%5D" width="100%">
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=vivekbhadauriyadev&bg_color=0a0a0a&color=8B8B92&line=3DDC97&point=FFC53D&area=true&area_color=3DDC97&title_color=EDEDED&hide_border=true&radius=16&custom_title=Contributions%20%E2%80%94%20last%2031%20days">
-    <img alt="Contribution graph" src="https://github-readme-activity-graph.vercel.app/graph?username=vivekbhadauriyadev&bg_color=FAFAFA&color=62626A&line=00925A&point=B87400&area=true&area_color=00925A&title_color=0A0A0A&hide_border=true&radius=16&custom_title=Contributions%20%E2%80%94%20last%2031%20days" width="100%">
-  </picture>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vivekbhadauriyadev/vivekbhadauriyadev/output/pulse-dark.svg">
+  <img alt="Commit pulse — contributions, streaks and a year of activity" src="https://raw.githubusercontent.com/vivekbhadauriyadev/vivekbhadauriyadev/output/pulse-light.svg" width="100%">
+</picture>
 
 <p align="center">
   <picture>

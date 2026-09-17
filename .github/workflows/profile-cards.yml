@@ -1,4 +1,4 @@
-name: contribution snake
+name: profile cards
 
 on:
   schedule:
@@ -15,6 +15,18 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: generate commit pulse card
+        run: node scripts/pulse.mjs dist
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+
       - name: generate snake svgs
         uses: Platane/snk@v3
         with:
