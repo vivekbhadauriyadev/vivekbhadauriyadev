@@ -71,6 +71,31 @@ object Vivek {
 
 <br>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/portfolio-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/portfolio-light.svg">
+  <img alt="Portfolio — Next.js site with a WebGL solar system, a Google sign-in guestbook and an AI scraper guard. Launching soon." src="./assets/portfolio-dark.svg" width="100%">
+</picture>
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <b>🪐 Shaders, not stock images</b><br>
+      <sub>The Sun, eight planets and their moons are drawn live in GLSL on one WebGL canvas — convection cells, cloud decks, Saturn's rings — and ease in as you scroll.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <b>✍️ A guestbook that's real</b><br>
+      <sub>Google sign-in, with every read and write going through the server and ID tokens verified there. Database rules deny the browser outright.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <b>🛡️ Guarded against AI scrapers</b><br>
+      <sub>Known AI crawlers get a 403 at the edge, headless browsers are detected client-side, and every hit lands on a live admin dashboard.</sub>
+    </td>
+  </tr>
+</table>
+
+<br>
+
 ### `>` toolbox
 
 <p>
