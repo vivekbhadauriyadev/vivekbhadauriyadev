@@ -73,36 +73,34 @@ object Vivek {
 
 ### `>` toolbox
 
-<sub><b>MOBILE</b></sub><br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=androidstudio,kotlin,java,react&theme=dark">
-  <img src="https://skillicons.dev/icons?i=androidstudio,kotlin,java,react&theme=light" height="42" alt="Android Studio, Kotlin, Java, React Native">
-</picture><br>
-<sub>Jetpack Compose · MVVM · Hilt · Room · Coroutines & Flow · WorkManager · React Native</sub>
+<p>
+  <sub><b>MOBILE</b></sub><br>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=androidstudio,kotlin,java,react&theme=dark"><img src="https://skillicons.dev/icons?i=androidstudio,kotlin,java,react&theme=light" height="42" alt="Android Studio, Kotlin, Java, React Native"></picture><br>
+  <sub>Jetpack Compose · MVVM · Hilt · Room · Coroutines & Flow · WorkManager · React Native</sub>
+</p>
 
-<sub><b>BACKEND</b></sub><br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=firebase,gcp,nodejs,express,nestjs,postgres,prisma,redis&theme=dark">
-  <img src="https://skillicons.dev/icons?i=firebase,gcp,nodejs,express,nestjs,postgres,prisma,redis&theme=light" height="42" alt="Firebase, Google Cloud, Node.js, Express, NestJS, PostgreSQL, Prisma, Redis">
-</picture><br>
-<sub>Cloud Functions · Firestore & RTDB · security rules · REST · JWT · WebSockets · webhooks</sub>
+<p>
+  <sub><b>BACKEND</b></sub><br>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=firebase,gcp,nodejs,express,nestjs,postgres,prisma,redis&theme=dark"><img src="https://skillicons.dev/icons?i=firebase,gcp,nodejs,express,nestjs,postgres,prisma,redis&theme=light" height="42" alt="Firebase, Google Cloud, Node.js, Express, NestJS, PostgreSQL, Prisma, Redis"></picture><br>
+  <sub>Cloud Functions · Firestore & RTDB · security rules · REST · JWT · WebSockets · webhooks</sub>
+</p>
 
-<sub><b>WEB</b></sub><br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,vercel&theme=dark">
-  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,vercel&theme=light" height="42" alt="Next.js, React, TypeScript, JavaScript, Tailwind, Vercel">
-</picture><br>
-<sub>Admin dashboards · role-based views · tables, filters, charts</sub>
+<p>
+  <sub><b>WEB</b></sub><br>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,vercel&theme=dark"><img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,vercel&theme=light" height="42" alt="Next.js, React, TypeScript, JavaScript, Tailwind, Vercel"></picture><br>
+  <sub>Admin dashboards · role-based views · tables, filters, charts</sub>
+</p>
 
-<sub><b>AI & TOOLING</b></sub><br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,docker,githubactions,git,github,linux&theme=dark">
-  <img src="https://skillicons.dev/icons?i=python,docker,githubactions,git,github,linux&theme=light" height="42" alt="Python, Docker, GitHub Actions, Git, GitHub, Linux">
-</picture><br>
-<sub>OpenAI · Gemini · AgentScope · Ollama · embeddings & RAG · tool calling · structured output</sub>
+<p>
+  <sub><b>AI & TOOLING</b></sub><br>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,docker,githubactions,git,github,linux&theme=dark"><img src="https://skillicons.dev/icons?i=python,docker,githubactions,git,github,linux&theme=light" height="42" alt="Python, Docker, GitHub Actions, Git, GitHub, Linux"></picture><br>
+  <sub>OpenAI · Gemini · AgentScope · Ollama · embeddings & RAG · tool calling · structured output</sub>
+</p>
 
-<sub><b>BUSINESS-CRITICAL</b></sub><br>
-<sub>Razorpay & Stripe · subscriptions · Google Maps SDK · realtime GPS & geofencing · FCM push · RFID hardware</sub>
+<p>
+  <sub><b>BUSINESS-CRITICAL</b></sub><br>
+  <sub>Razorpay & Stripe · subscriptions · Google Maps SDK · realtime GPS & geofencing · FCM push · RFID hardware</sub>
+</p>
 
 <br>
 
