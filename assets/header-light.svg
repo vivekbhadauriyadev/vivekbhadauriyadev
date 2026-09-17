@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460" role="img" aria-label="Vivek Bhadauriya — Software Engineer, Mobile, Backend and AI">
+  <title>Vivek Bhadauriya — Software Engineer · Mobile · Backend · AI</title>
+  
+  <defs>
+    <linearGradient id="hlight-signal" x1="0" y1="0" x2="2" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b87400"/>
+      <stop offset="0.25" stop-color="#00925a"/>
+      <stop offset="0.5" stop-color="#0a63c9"/>
+      <stop offset="0.75" stop-color="#00925a"/>
+      <stop offset="1" stop-color="#b87400"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+        values="0 0; -0.5 0; 0 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="hlight-route" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b87400"/>
+      <stop offset="0.5" stop-color="#00925a"/>
+      <stop offset="1" stop-color="#0a63c9"/>
+    </linearGradient>
+    <pattern id="hlight-dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="rgba(0,0,0,0.07)"/>
+    </pattern>
+    <pattern id="hlight-stripes" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="4" height="10" fill="#ececef"/>
+    </pattern>
+    <radialGradient id="hlight-fade" cx="0.5" cy="0.5" r="0.65">
+      <stop offset="0.35" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hlight-glowblue"><stop offset="0" stop-color="#0a63c9" stop-opacity="0.075"/><stop offset="1" stop-color="#0a63c9" stop-opacity="0"/></radialGradient>
+    <radialGradient id="hlight-glowamber"><stop offset="0" stop-color="#b87400" stop-opacity="0.05"/><stop offset="1" stop-color="#b87400" stop-opacity="0"/></radialGradient>
+    <mask id="hlight-fademask"><rect width="100%" height="100%" fill="url(#hlight-fade)"/></mask>
+    <filter id="hlight-glow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .reveal { opacity: 0; animation: fade-up .9s cubic-bezier(.22,1,.36,1) forwards; }
+    @keyframes fade-up { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+    .draw { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 2.4s cubic-bezier(.22,1,.36,1) .3s forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .road-dash { animation: dash 1.6s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -28; } }
+    .ping { transform-box: fill-box; transform-origin: center; animation: ping 1.6s cubic-bezier(0,0,.2,1) infinite; }
+    @keyframes ping { 0% { transform: scale(1); opacity: .7; } 80%,100% { transform: scale(3); opacity: 0; } }
+    .bob { animation: bob 4s ease-in-out infinite; }
+    @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+    .blink { animation: blink 1.1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; }
+      .reveal { opacity: 1; }
+      .draw { stroke-dashoffset: 0; }
+    }</style>
+
+  <clipPath id="hlight-clip"><rect x="1" y="1" width="1278" height="458" rx="28"/></clipPath>
+  <rect x="1" y="1" width="1278" height="458" rx="28" fill="#fafafa"/>
+
+  <g clip-path="url(#hlight-clip)">
+    <rect width="1280" height="460" fill="url(#hlight-dots)" mask="url(#hlight-fademask)"/>
+    <rect x="0" y="0" width="34" height="460" fill="url(#hlight-stripes)"/>
+    <rect x="1246" y="0" width="34" height="460" fill="url(#hlight-stripes)"/>
+    <line x1="34" y1="0" x2="34" y2="460" stroke="rgba(0,0,0,0.08)"/>
+    <line x1="1246" y1="0" x2="1246" y2="460" stroke="rgba(0,0,0,0.08)"/>
+
+    <ellipse cx="980" cy="130" rx="420" ry="220" fill="url(#hlight-glowblue)"/>
+    <ellipse cx="250" cy="380" rx="380" ry="170" fill="url(#hlight-glowamber)"/>
+
+    <!-- bus route motif -->
+    <path id="hlight-road" d="M -40 392 C 180 392 250 300 430 318 S 720 420 900 330 S 1130 170 1320 190" fill="none"/>
+    <path d="M -40 392 C 180 392 250 300 430 318 S 720 420 900 330 S 1130 170 1320 190" fill="none" stroke="rgba(0,0,0,0.14)" stroke-width="26" stroke-linecap="round" opacity=".55"/>
+    <path d="M -40 392 C 180 392 250 300 430 318 S 720 420 900 330 S 1130 170 1320 190" fill="none" stroke="#a1a1a8" stroke-width="2" stroke-dasharray="14 14" class="road-dash" opacity=".6"/>
+    <path d="M -40 392 C 180 392 250 300 430 318 S 720 420 900 330 S 1130 170 1320 190" pathLength="1" fill="none" stroke="url(#hlight-route)" stroke-width="3" stroke-linecap="round" class="draw" opacity=".9"/>
+    
+    <circle cx="430" cy="318" r="7" fill="#00925a" class="ping"/>
+    <circle cx="430" cy="318" r="7" fill="#fafafa" stroke="#00925a" stroke-width="3"/>
+    <circle cx="900" cy="330" r="7" fill="#00925a" class="ping"/>
+    <circle cx="900" cy="330" r="7" fill="#fafafa" stroke="#00925a" stroke-width="3"/>
+    
+    <g>
+      <animateMotion dur="11s" begin="1.2s" repeatCount="indefinite" rotate="auto" keyPoints="0;1" keyTimes="0;1" calcMode="linear">
+        <mpath href="#hlight-road"/>
+      </animateMotion>
+      <circle r="16" fill="#00925a" opacity="0.125" filter="url(#hlight-glow)"/>
+      <rect x="-13" y="-8" width="26" height="16" rx="5" fill="#b87400"/>
+      <rect x="4" y="-5.5" width="6" height="11" rx="1.5" fill="#fafafa" opacity=".85"/>
+      <rect x="-9" y="-5.5" width="10" height="4" rx="1" fill="#fafafa" opacity=".55"/>
+      <rect x="-9" y="1.5" width="10" height="4" rx="1" fill="#fafafa" opacity=".55"/>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1278" height="458" rx="28" fill="none" stroke="rgba(0,0,0,0.08)" stroke-width="1.5"/>
+
+  <!-- top row -->
+  <g class="reveal" style="animation-delay:.05s">
+    <rect x="72" y="46" width="266" height="38" rx="19" fill="#ffffff" stroke="rgba(0,0,0,0.08)"/>
+    <circle cx="96" cy="65" r="5" fill="#00925a" class="ping"/>
+    <circle cx="96" cy="65" r="5" fill="#00925a"/>
+    <text x="112" y="70" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" letter-spacing="1.6" fill="#0a0a0a">OPEN TO FREELANCE</text>
+    <text x="1208" y="62" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" letter-spacing="2.4" fill="#62626a">SOFTWARE ENGINEER</text>
+    <text x="1208" y="82" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" font-weight="700" letter-spacing="2.4" fill="#00925a">MOBILE · BACKEND · AI</text>
+  </g>
+
+  <!-- name -->
+  <g class="reveal" style="animation-delay:.2s">
+    <text x="64" y="252" font-family="'Outfit','Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="186" letter-spacing="-7" textLength="690" lengthAdjust="spacingAndGlyphs" fill="#0a0a0a">VIVEK</text>
+  </g>
+  <g class="reveal" style="animation-delay:.45s">
+    <text x="784" y="248" font-family="'Instrument Serif',Georgia,'Times New Roman',serif" font-style="italic" font-size="104" textLength="430" lengthAdjust="spacingAndGlyphs" fill="url(#hlight-signal)">Bhadauriya</text>
+  </g>
+
+  <!-- tagline -->
+  <g class="reveal" style="animation-delay:.7s">
+    <text x="70" y="298" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" letter-spacing="5.5" fill="#62626a">I SHIP SYSTEMS THAT RUN IN PRODUCTION —</text>
+    <text x="70" y="342" font-family="'Instrument Serif',Georgia,'Times New Roman',serif" font-style="italic" font-size="38" fill="#0a0a0a">not prototypes.</text>
+  </g>
+
+  <!-- corners -->
+  <g class="reveal" style="animation-delay:.9s">
+    <path d="M78 398 c0 -8 6 -14 14 -14 s14 6 14 14 c0 10 -14 22 -14 22 s-14 -12 -14 -22z" fill="none" stroke="#b87400" stroke-width="2.2"/>
+    <circle cx="92" cy="398" r="4" fill="#b87400"/>
+    <text x="120" y="400" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" font-weight="700" letter-spacing="2" fill="#0a0a0a">MAINPURI, INDIA</text>
+    <text x="120" y="419" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" letter-spacing="2" fill="#62626a">REMOTE · WORLDWIDE</text>
+
+    <text x="1208" y="400" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" font-weight="700" letter-spacing="2" fill="#0a0a0a">FOUNDER, CVIANT TECHNOLOGIES</text>
+    <text x="1208" y="419" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" letter-spacing="2" fill="#62626a">BUILDING SCHOOLTRACIFY</text>
+  </g>
+</svg>
