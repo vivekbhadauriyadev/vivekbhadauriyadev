@@ -75,25 +75,25 @@ object Vivek {
 
 <p>
   <sub><b>MOBILE</b></sub><br>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=androidstudio,kotlin,java,react&theme=dark"><img src="https://skillicons.dev/icons?i=androidstudio,kotlin,java,react&theme=light" height="42" alt="Android Studio, Kotlin, Java, React Native"></picture><br>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=androidstudio%2Ckotlin%2Cjava%2Creact&theme=dark"><img src="https://skillicons.dev/icons?i=androidstudio,kotlin,java,react&theme=light" height="42" alt="Android Studio, Kotlin, Java, React Native"></picture><br>
   <sub>Jetpack Compose · MVVM · Hilt · Room · Coroutines & Flow · WorkManager · React Native</sub>
 </p>
 
 <p>
   <sub><b>BACKEND</b></sub><br>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=firebase,gcp,nodejs,express,nestjs,postgres,prisma,redis&theme=dark"><img src="https://skillicons.dev/icons?i=firebase,gcp,nodejs,express,nestjs,postgres,prisma,redis&theme=light" height="42" alt="Firebase, Google Cloud, Node.js, Express, NestJS, PostgreSQL, Prisma, Redis"></picture><br>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=firebase%2Cgcp%2Cnodejs%2Cexpress%2Cnestjs%2Cpostgres%2Cprisma%2Credis&theme=dark"><img src="https://skillicons.dev/icons?i=firebase,gcp,nodejs,express,nestjs,postgres,prisma,redis&theme=light" height="42" alt="Firebase, Google Cloud, Node.js, Express, NestJS, PostgreSQL, Prisma, Redis"></picture><br>
   <sub>Cloud Functions · Firestore & RTDB · security rules · REST · JWT · WebSockets · webhooks</sub>
 </p>
 
 <p>
   <sub><b>WEB</b></sub><br>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,vercel&theme=dark"><img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,vercel&theme=light" height="42" alt="Next.js, React, TypeScript, JavaScript, Tailwind, Vercel"></picture><br>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nextjs%2Creact%2Cts%2Cjs%2Ctailwind%2Cvercel&theme=dark"><img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,vercel&theme=light" height="42" alt="Next.js, React, TypeScript, JavaScript, Tailwind, Vercel"></picture><br>
   <sub>Admin dashboards · role-based views · tables, filters, charts</sub>
 </p>
 
 <p>
   <sub><b>AI & TOOLING</b></sub><br>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,docker,githubactions,git,github,linux&theme=dark"><img src="https://skillicons.dev/icons?i=python,docker,githubactions,git,github,linux&theme=light" height="42" alt="Python, Docker, GitHub Actions, Git, GitHub, Linux"></picture><br>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python%2Cdocker%2Cgithubactions%2Cgit%2Cgithub%2Clinux&theme=dark"><img src="https://skillicons.dev/icons?i=python,docker,githubactions,git,github,linux&theme=light" height="42" alt="Python, Docker, GitHub Actions, Git, GitHub, Linux"></picture><br>
   <sub>OpenAI · Gemini · AgentScope · Ollama · embeddings & RAG · tool calling · structured output</sub>
 </p>
 
